@@ -12,7 +12,7 @@ renderer.shadowMap.type=THREE.PCFSoftShadowMap;
 
 // Loader
 const textureLoader = new THREE.TextureLoader();
-const normalTexture = textureLoader.load('../Textures/NormalMap.png');
+const normalTexture = textureLoader.load('./Textures/NormalMap.png');
 
 
 /////// create Elements /////
